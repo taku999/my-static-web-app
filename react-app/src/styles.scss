@@ -10,7 +10,10 @@ $link: $primary; // #00b3e6; // #ff4081;
 
 $shade-light: #fafafa;
 
-@import 'bulma/bulma.sass';
+@use 'bulma/sass' with (
+  $primary: $primary,
+  $link: $link
+);
 
 .menu-list .active-link,
 .menu-list .router-link-active {
