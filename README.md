@@ -96,4 +96,4 @@ For more information see the [Code of Conduct FAQ](https://opensource.microsoft.
 contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additional questions or comments.
 
 # このプロジェクトは下記のMS Learnの演習です。
-https://learn.microsoft.com/en-us/training/modules/publish-app-service-static-web-app-api/
+[MS Learn](https://learn.microsoft.com/en-us/training/modules/publish-app-service-static-web-app-api/)
