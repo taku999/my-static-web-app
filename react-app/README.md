@@ -2,6 +2,9 @@
 
 This project was created to help represent a fundamental app written with React. The shopping theme is used throughout the app.
 
+The app uses Vite for development and production builds. Use Node.js 20.19+ on
+the 20.x line, or Node.js 22.12+ (Node.js 24 LTS is recommended), and npm 9+.
+
 ## Getting Started
 
 1. Create a repository from this template repository <https://github.com/MicrosoftDocs/mslearn-staticwebapp/generate>
@@ -26,6 +29,23 @@ This project was created to help represent a fundamental app written with React.
    ```bash
    npm start
    ```
+
+   Open the local URL printed by Vite (port 3000 by default). Requests under
+   `/api` are proxied to `http://localhost:7071` during development. The existing
+   `REACT_APP_API` setting can still be provided in an environment variable or
+   an `.env` file.
+
+## Build and Test
+
+```bash
+npm run build
+npm test
+npm audit
+```
+
+Production files, including `staticwebapp.config.json`, are written to `build`.
+Use `npm run preview` to inspect the production build locally. Vitest runs the
+toolchain compatibility tests; browser checks cover the existing app routes.
 
 ## Resources
 
