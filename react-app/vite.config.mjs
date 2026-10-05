@@ -37,6 +37,11 @@ export default defineConfig(({ mode }) => {
     optimizeDeps: {
       esbuildOptions: { loader: { '.js': 'jsx' } },
     },
+    css: {
+      preprocessorOptions: {
+        scss: { silenceDeprecations: ['if-function'] },
+      },
+    },
     server: {
       host: '127.0.0.1',
       port: 3000,

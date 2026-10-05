@@ -1,5 +1,4 @@
 import React, { Component, lazy, Suspense } from 'react';
-import 'bulma/css/bulma.css';
 import './styles.scss';
 import { Redirect, Route, Switch } from 'react-router-dom';
 import { withRouter } from 'react-router';
