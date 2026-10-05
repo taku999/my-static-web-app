@@ -26,7 +26,7 @@ The shopping theme is used throughout the app.
 - [GitHub](https://github.com) account
 - [Visual Studio Code](https://code.visualstudio.com)
 
-## Contents
+## Contents 
 
 The apps written in the following JavaScript frameworks/libraries:
 
